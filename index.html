@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HireAVilla</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                HireAVilla
+            </a>
+
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Villas</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Apartments</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Locations</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Partner with us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login / Signup</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="overlay">
+
+            <div class="container text-center">
+
+                <h5 class="logo-text">
+                    HIREAVILLA
+                </h5>
+
+                <h1 class="hero-title">
+                    Looking for your next escape?
+                </h1>
+
+                <!-- Search -->
+
+                <div class="search-container">
+
+                    <div class="search-item">
+
+                        <small>Search Location</small>
+
+                        <input type="text" placeholder="Location">
+
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <div class="search-item">
+
+                        <small>Booking Dates</small>
+
+                        <input type="text" placeholder="Add Dates">
+
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <div class="search-item">
+
+                        <small>Guests</small>
+
+                        <input type="text" placeholder="1 Guest">
+
+                    </div>
+
+                    <button class="search-btn">
+
+                        <i class="bi bi-search"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Featured Villas -->
+<div class="container-1">
+    <img src="./imag.png" alt="">
+</div>
+<section class="featured py-5">
+
+    <div class="container">
+
+        <h2 class="text-center section-title">
+            Featured Villas
+        </h2>
+
+        <p class="text-center text-muted mb-5">
+            Handpicked luxury villas for your perfect stay.
+        </p>
+
+        <div class="row">
+
+            <!-- Card 1 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+
+                <div class="villa-card">
+
+                    <img src="./villa1.png" class="img-fluid">
+
+                    <div class="villa-content">
+
+                        <h4>Luxury Pool Villa</h4>
+
+                        <p>📍 Goa</p>
+
+                        <h5>₹18,000 / Night</h5>
+
+                        <button class="btn btn-success w-100 mt-3">
+                            Book Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Card 2 -->
+
+            <div class="col-lg-4 col-md-6 mb-4">
+
+                <div class="villa-card">
+
+                    <img src="./villa2.png" class="img-fluid">
+
+                    <div class="villa-content">
+
+                        <h4>Mountain View Villa</h4>
+
+                        <p>📍 Ooty</p>
+
+                        <h5>₹14,500 / Night</h5>
+
+                        <button class="btn btn-success w-100 mt-3">
+                            Book Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Card 3 -->
+
+            <div class="col-lg-4 col-md-6 mb-4">
+
+                <div class="villa-card">
+
+                    <img src="./villa3.png" class="img-fluid">
+
+                    <div class="villa-content">
+
+                        <h4>Beach House</h4>
+
+                        <p>📍 Pondicherry</p>
+
+                        <h5>₹20,000 / Night</h5>
+
+                        <button class="btn btn-success w-100 mt-3">
+                            Book Now
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Popular Destinations -->
+
+<section class="destinations py-5">
+
+    <div class="container">
+
+        <h2 class="section-title text-center">
+            Popular Destinations
+        </h2>
+
+        <p class="text-center text-muted mb-5">
+            Explore the best holiday destinations.
+        </p>
+
+        <div class="row">
+
+            <!-- Goa -->
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <div class="destination-card">
+
+                    <img src="./goa.png" class="img-fluid">
+
+                    <div class="destination-text">
+                        <h4>Goa</h4>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Ooty -->
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <div class="destination-card">
+
+                    <img src="./ooty.png" class="img-fluid">
+
+                    <div class="destination-text">
+                        <h4>Ooty</h4>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Coorg -->
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <div class="destination-card">
+
+                    <img src="./coorg.png" class="img-fluid">
+
+                    <div class="destination-text">
+                        <h4>Coorg</h4>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Manali -->
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <div class="destination-card">
+
+                    <img src="./manali.png" class="img-fluid">
+
+                    <div class="destination-text">
+                        <h4>Manali</h4>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Why Choose Us -->
+
+<section class="why-us py-5">
+
+    <div class="container">
+
+        <h2 class="section-title text-center">
+            Why Choose HireAVilla?
+        </h2>
+
+        <p class="text-center text-muted mb-5">
+            Experience luxury, comfort, and unforgettable stays.
+        </p>
+
+        <div class="row text-center">
+
+            <!-- Card 1 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <div class="feature-box">
+
+                    <i class="bi bi-house-heart-fill feature-icon"></i>
+
+                    <h4>Luxury Villas</h4>
+
+                    <p>
+                        Premium villas with modern facilities and beautiful interiors.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <div class="feature-box">
+
+                    <i class="bi bi-geo-alt-fill feature-icon"></i>
+
+                    <h4>Best Locations</h4>
+
+                    <p>
+                        Stay in the most popular tourist destinations across India.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <div class="feature-box">
+
+                    <i class="bi bi-shield-check feature-icon"></i>
+
+                    <h4>Safe Booking</h4>
+
+                    <p>
+                        Secure online booking with trusted payment methods.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <div class="feature-box">
+
+                    <i class="bi bi-headset feature-icon"></i>
+
+                    <h4>24/7 Support</h4>
+
+                    <p>
+                        Our support team is available anytime during your stay.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Testimonials -->
+
+<section class="testimonials py-5">
+
+    <div class="container">
+
+        <h2 class="section-title text-center">
+            What Our Guests Say
+        </h2>
+
+        <p class="text-center text-muted mb-5">
+            Hear from our happy customers.
+        </p>
+
+        <div class="row">
+
+            <!-- Testimonial 1 -->
+
+            <div class="col-lg-4 mb-4">
+
+                <div class="testimonial-card">
+
+                    <img src="./user1.png" class="testimonial-img">
+
+                    <h4>Rahul Sharma</h4>
+
+                    <p class="stars">★★★★★</p>
+
+                    <p>
+                        Amazing villa with beautiful views. Booking was easy and support was excellent.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Testimonial 2 -->
+
+            <div class="col-lg-4 mb-4">
+
+                <div class="testimonial-card">
+
+                    <img src="./user2.png" class="testimonial-img">
+
+                    <h4>Priya Reddy</h4>
+
+                    <p class="stars">★★★★★</p>
+
+                    <p>
+                        Very clean villa and friendly staff. We enjoyed our family vacation.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Testimonial 3 -->
+
+            <div class="col-lg-4 mb-4">
+
+                <div class="testimonial-card">
+
+                    <img src="./user3.png" class="testimonial-img">
+
+                    <h4>Arjun Kumar</h4>
+
+                    <p class="stars">★★★★★</p>
+
+                    <p>
+                        One of the best villa experiences. I will definitely book again.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Footer -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Company -->
+
+            <div class="col-lg-4 mb-4">
+
+                <h2 class="footer-logo">
+                    HireAVilla
+                </h2>
+
+                <p>
+                    Discover luxury villas across India's most beautiful destinations.
+                    Book your perfect vacation with us.
+                </p>
+
+            </div>
+
+            <!-- Quick Links -->
+
+            <div class="col-lg-2 mb-4">
+
+                <h4>Quick Links</h4>
+
+                <ul class="footer-links">
+
+                    <li><a href="#">Home</a></li>
+
+                    <li><a href="#">Villas</a></li>
+
+                    <li><a href="#">Locations</a></li>
+
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- Support -->
+
+            <div class="col-lg-3 mb-4">
+
+                <h4>Support</h4>
+
+                <ul class="footer-links">
+
+                    <li><a href="#">Privacy Policy</a></li>
+
+                    <li><a href="#">Terms & Conditions</a></li>
+
+                    <li><a href="#">FAQs</a></li>
+
+                    <li><a href="#">Help Center</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- Contact -->
+
+            <div class="col-lg-3 mb-4">
+
+                <h4>Contact</h4>
+
+                <p>Email : info@hireavilla.com</p>
+
+                <p>Phone : +91 9876543210</p>
+
+                <p>Hyderabad, India</p>
+
+                <div class="social-icons">
+
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <p class="text-center copyright">
+            © 2026 HireAVilla. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
